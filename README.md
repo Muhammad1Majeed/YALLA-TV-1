@@ -1,4 +1,4 @@
-# Video Player HTMLAPP24
+# Video Player YALLA TV 
 
 مشغل فيديو يعمل باستخدام مكتبة JW Player ويدعم مفاتيح ClearKey DRM.
 
