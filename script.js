@@ -1,5 +1,4 @@
-
-$(document).ready(function () {
+$(document).ready(function() {
     function initializePlayer(videoUrl, videoKey) {
         jwplayer("jwplayer-container").setup({
             file: videoUrl,
@@ -23,7 +22,7 @@ $(document).ready(function () {
     const videoKey = $(".video-btn.selected").data("video-key");
     initializePlayer(videoUrl, videoKey);
 
-    $(".video-btn").on("click", function () {
+    $(".video-btn").on("click", function() {
         $(".video-btn").removeClass("selected");
         $(this).addClass("selected");
         const videoUrl = $(this).data("url");
