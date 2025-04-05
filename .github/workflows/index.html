@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Player YALLA TV</title>
+    <meta name="robots" content="noindex">
+    <!-- Fonts -->
+    <link href="https://cdn.jsdelivr.net/npm/clappr@latest/src/components/core/public/fonts.min.css" rel="stylesheet">
+    <!-- JWPlayer Library -->
+    <script src="https://content.jwplatform.com/libraries/IDzF9Zmk.js"></script>
+    <!-- Font Awesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="buttons-section">
+            <!-- Video selection buttons -->
+            <button class="btn video-btn selected" data-video-type="direct_with_key" data-video-id="beIN Sports 1" data-url="https://todtv-live-spo-prod.akamaized.net/Content/Channel/svc-spo-hd-08-dt/DASH/hdntl=exp=1743876808~acl=*%2fContent%2fChannel%2fsvc-spo-hd-08-dt%2fDASH%2f*~id=a720ebec-0d88-4916-ba6f-b38b89156128~data=hdntl,aXA9NDEuMTExLjIzNC45OA~hmac=1586c3cfd30826652a17d8138f2b8da44b3264396f233c634cab0cf6261d5e37/playlist.mpd" data-video-key="39471a4508f1387d96867b6e8ffa1e39:ddd1fa7cd620953469679dca5bc19e54">beIN Sports 1</button>
+            <!-- Add more buttons as needed -->
+        </div>
+        <div class="player-container">
+            <div id="videoPlayer">
+                <div id="jwplayer-container"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
